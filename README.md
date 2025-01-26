@@ -412,7 +412,8 @@ git remote add origin https://github.com/Joy-it-code/Shell_Script_IAM.git
 git branch -M main
 git push -u origin main
 ```
-[](./img/)
+![](./img/18c.git.remote.add.png)
+
 Step 9.3: Share My GitHub Repository Link:
 
 Once uploaded, I shared my repository link:
