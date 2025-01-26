@@ -368,10 +368,20 @@ assign_users_to_group
 This script simplifies IAM user and group management by automating repetitive tasks. Proper error handling and logging ensure reliability, while AWS CLI commands provide robust functionality. The modular design allows for easy extension and maintenance.
 
 
-Task 7. Uploading the Script to GitHub and Linking for Remote Execution
+Step 7: Push the code to your Github repository
+
+After initializing your Git repository and adding your AWS-IAM-Manager.sh, the next step is to push your code to a remote repository on GitHub. This step is crucial for version control and collaboration.
+
+Create a Remote Repository on GitHub: Log into your GitHub account and create a new repository named AWS-IAM-Manager. Leave the repository empty without initializing it with a README, .gitignore, or license.
+
+![](./img/16.creatg.repo.png)
+![](./img/17.git.remote.comd.ig.png)
+
+
+Task 7.1. Uploading the Script to GitHub and Linking for Remote Execution
 
 Steps to Upload My Script to GitHub
-step 7.1: Stage and Commit the Template to Git
+step 7.2: Stage and Commit the Template to Git
 
 In this step, I will add the website files to the Git repository, configure my global Git settings, and make an initial commit with a descriptive message.
 
@@ -387,16 +397,9 @@ git config --global user.name "Joy-it-code"
 git config --global user.email "joynwat2014@gmail.com"
 git commit -m "Initial commit: "Add Shell_Script_IAM script for automating user, group, and policy management"
 ```
+![](./img/18a.git.add.png)
+![](./img/18b.git.commit.png)
 
-
-Step 7.2: Push the code to your Github repository
-
-After initializing your Git repository and adding your AWS-IAM-Manager.sh, the next step is to push your code to a remote repository on GitHub. This step is crucial for version control and collaboration.
-
-Create a Remote Repository on GitHub: Log into your GitHub account and create a new repository named AWS-IAM-Manager. Leave the repository empty without initializing it with a README, .gitignore, or license.
-
-![](./img/16.creatg.repo.png)
-![](./img/17.git.remote.comd.ig.png)
 
 + Link Your Local Repository to GitHub: In your terminal, within your project directory, add the remote repository URL to your local repository configuration.
 
@@ -409,6 +412,22 @@ git remote add origin https://github.com/Joy-it-code/Shell_Script_IAM.git
 git branch -M main
 git push -u origin main
 ```
+[](./img/)
+Step 9.3: Share My GitHub Repository Link:
+
+Once uploaded, I shared my repository link:
+
+https://github.com/Joy-it-code/Shell_Script_IAM.git
+
+
+Benefits of Hosting the Script on GitHub
+
+ + Version Control: Allows tracking changes and rolling back if needed.
+ + Collaboration: Facilitates contributions from other team members or collaborators.
+ + Accessibility: Provides a central location for accessing and downloading the script.
+ + Documentation: GitHub’s README file can serve as a detailed guide for usage and configuration.
+
+
 
 
 
